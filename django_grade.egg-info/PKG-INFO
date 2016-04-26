@@ -1,0 +1,61 @@
+Metadata-Version: 1.1
+Name: django-grade
+Version: 0.1
+Summary: A member grade module based on django
+Home-page: http://www.findchen.com/
+Author: Chen
+Author-email: chen.orange@aliyun.com
+License: BSD License
+Description: 基于django_wechat_member的会员等级模块
+        =======================================
+        
+        一个基于 `django_wechat_member <http://github.com/ChanMo/django_wechat_member/>`_ 的会员等级模块
+        
+        功能说明：
+        ----------
+        
+        - 会员等级名称及排序
+        - 会员等级的临界成长值
+        - 成长值的记录
+        - api接口
+        
+        快速开始:
+        ---------
+        
+        安装 *django_wechat_member* :
+        
+            `有关django_wechat_member的详细使用说明 <http://github.com/ChanMo/django_wechat_member.git/>`_ 
+        
+        修改 *settings.py* 文件:
+        
+        .. code-block::
+        
+            INSTALLED_APPS = (
+                ...
+                'grade',
+                ...
+            )
+        
+        更新数据库:
+        
+        .. code-block::
+        
+           python manage.py migrate
+        
+        
+        版本更改:
+        ---------
+        - v0.1 第一版
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
