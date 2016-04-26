@@ -18,6 +18,12 @@
 
     `有关django_wechat_member的详细使用说明 <http://github.com/ChanMo/django_wechat_member.git/>`_ 
 
+安装 *django_member_grade* :
+
+.. code-block::
+
+    pip install git+https://github.com/ChanMo/django_member_grade.git
+
 修改 *settings.py* 文件:
 
 .. code-block::
